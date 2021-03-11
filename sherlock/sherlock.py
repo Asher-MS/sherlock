@@ -336,7 +336,7 @@ def sherlock(username, site_data, query_notify,
             # and handle the case for strings as normal procedure
             # and if its list we can iterate the errors
             if isinstance(errors,str):
-                # Checks if the error message is in the HTML
+                # cks if the error message is in the HTML
                 # if error is present we will set flag to False
                 if errors in r.text:
                     error_flag = False
